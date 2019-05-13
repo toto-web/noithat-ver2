@@ -47,7 +47,7 @@
 .half_circle{
   width: 21%;
   height: 125px;
-  background-color: #fdb913;
+  background-color: #1d1108;
   border-top-left-radius: 125px;
   border-top-right-radius: 125px;
   border-bottom: 0;
@@ -80,7 +80,7 @@
   font-family: Roboto_Bold, Arial, Tahoma;
   font-size: 16px;
   color: #fff;
-  background-color: #fdb913;
+  background-color: #1d1108;
   text-align: center;
   padding: 14px 0;
   text-transform: uppercase;
@@ -226,11 +226,11 @@
     border: none;
 }
 .long-range-slider .ui-widget-content {
-    background: #fdb913;
+    background: #1d1108;
     border: none;
 }
 .ui-widget-header {
-    background: #fdb913;
+    background: #1d1108;
 }
 .long-range-slider .ui-widget-header {
     background: #96c221;
@@ -437,13 +437,13 @@
 }
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
 {
-  background-color: #fdb913;
-  border: 1px solid #fdb913;
+  background-color: #1d1108;
+  border: 1px solid #1d1108;
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover
 {
-  background-color: #fdb913;
-  border: 1px solid #fdb913;
+  background-color: #1d1108;
+  border: 1px solid #1d1108;
   color: #fff;
 }
 .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover
@@ -590,7 +590,7 @@
   font-size: 18px;
   font-family: Roboto_Bold, Arial, Tahoma, sans-serif;
   color: #ffffff;
-  background-color: #fdb913;
+  background-color: #1d1108;
   text-align: left;
   display: block;
   padding: 12px 28px 9px 60px;

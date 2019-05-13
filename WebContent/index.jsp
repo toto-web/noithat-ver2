@@ -6,7 +6,7 @@
 
 <head>
 	<title>Nội thất chính hãng</title>
-
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 	<link rel="stylesheet" type="text/css"
 	href="themes/thuvien/general/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css"

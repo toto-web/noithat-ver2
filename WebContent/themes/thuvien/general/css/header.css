@@ -1,3 +1,5 @@
+
+/*old color background #fec231  */
 @font-face
 {
   font-family: futuraregular;
@@ -115,6 +117,7 @@ body
 }
 header
 {
+	background-color:#1d1108;
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -122,7 +125,7 @@ header
 .bg_header
 {
   height: 50px;
-  background-color: #fec231;
+  background-color: #1d1108;
   width: 100%;
 }
 .texthotline
@@ -140,7 +143,7 @@ header
 .top_header_left
 {
   line-height: 47px;
-  color: #000;
+  color: white;
   padding-left: 0px;
 }
 .top_header_left i:before
@@ -158,9 +161,9 @@ header
 .top_header_right
 {
   line-height: 46px;
-  color: #000;
+  color: white;
   text-align: center;
-  background-color: #fdb913;
+  background-color: #1d1108;
   width: 97%;
   float: right;
 }
@@ -170,7 +173,7 @@ header
 }
 .top_header_right a
 {
-  color: #000;
+  color: white;
 }
 .top_header_right i:before
 {
@@ -180,7 +183,7 @@ header
 .top_header_left a
 {
   display: inline-block;
-  color: #000;
+  color: white;
 }
 .bottom_header
 {
@@ -258,7 +261,7 @@ header
 }
 .btn_search i:before
 {
-  color: #000;
+  color: white;
   font-size: 21px;
   font-weight: bold;
   margin-left: 0px;
@@ -277,7 +280,7 @@ header
 }
 .pro_recently i:before
 {
-  color: #000;
+  color: white;
   font-weight: bold;
   margin-right: 2px;
   font-size: 21px;
@@ -285,7 +288,7 @@ header
 .hovercart
 {
   position: relative;
-  color: #000;
+  color: white;
   display: block;
   padding-right: 4px;
 }
@@ -297,7 +300,7 @@ header
 }
 .hovercart i:before
 {
-  color: #000;
+  color: white;
   font-weight: bold;
 }
 .number_cart {
@@ -852,7 +855,7 @@ border-top-color: #333;
   font-family: Roboto_Bold, Arial, Tahoma, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
-  color: #49494a;
+  color: white;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 14px;
@@ -868,7 +871,7 @@ border-top-color: #333;
 }
 .top_navigation > li > a > i:before
 {
-  color: #49494a;
+  color: white;
   margin-right: 8px;
   margin-left: 0px;
   font-size: 23px;
@@ -1146,7 +1149,7 @@ border-top-color: #333;
   width: 46px;
   height: 46px;
   display: block;
-  background-color: #febf28;
+  background-color: #1d1108;
   border-radius: 50%;
   line-height: 43px;
 }
@@ -1252,7 +1255,7 @@ border-top-color: #333;
   {
     width: 100%;
     text-align: right;
-    background-color: #fec231;
+    background-color: #1d1108;
   }
   .navigation_main .navbar-toggle
   {

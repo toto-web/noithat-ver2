@@ -31,8 +31,8 @@
 				</div>
 			</div>
 			<img
-				data-src="logo.png"
-				src="logo.png"
+				data-src="img/logo-2.png"
+				src="img/logo-2.png"
 				alt="Logo thuvien" class="lazyload" style="  display: block;
 				  
 				  margin: 10px auto 5px auto;
@@ -54,27 +54,26 @@
 						<ul class="nav navbar-nav top_navigation">
 							<li class="dropdown"><a href="noi-that.html"
 								title="Nội thất" class="dropdown-toggle"><i
-									class="flaticon-noi-that">Nội thất</i></a>
+									class="flaticon-noi-that">Trang chủ</i></a>
 							<hr>
 								</li>
 							<li class="dropdown"><a href="hang-trang-tri.html"
 								title="Hàng Trang Trí" class="dropdown-toggle"><i
-									class="flaticon-hang-trang-tri">Hàng Trang Trí</i></a>
+									class="flaticon-hang-trang-tri">Dự án</i></a>
 							<hr>
 								</li>
 							<li class="dropdown"><a href="thiet-ke.html"
 								title="Thiết kế" class="dropdown-toggle"><i
-									class="flaticon-gia-dung">Thiết kế</i></a>
+									class="flaticon-gia-dung">Video</i></a>
 							<hr>
 								</li>
 							<li class="dropdown"><a href="dich-vu.html" title="Dịch Vụ"
-								class="dropdown-toggle"><i class="flaticon-dich-vu">Dịch
-										Vụ</i></a>
+								class="dropdown-toggle"><i class="flaticon-dich-vu">Liên hệ</i></a>
 							<hr>
 								</li>
 							<li class="dropdown"><a href="chuyen-muc.html"
 								title="Chuyên Mục" class="dropdown-toggle"><i
-									class="flaticon-chuyen-muc">Chuyên Mục</i></a>
+									class="flaticon-chuyen-muc">Giới thiệu</i></a>
 							<hr>
 								</li>
 						</ul>

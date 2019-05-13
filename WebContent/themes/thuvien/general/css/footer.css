@@ -81,26 +81,26 @@ footer
 }
 .search_footer i:before
 {
-  color: #fdb813;
+  color: white;
 }
 .search_footer .data_input::-webkit-input-placeholder
 {
-   color: #fdb813;
+   color: white;
 }
  
 .search_footer .data_input:-moz-placeholder
 {
-   color: #fdb813;
+   color: white;
 }
  
 .search_footer .data_input::-moz-placeholder
 {
-   color: #fdb813;
+   color: white;
 }
  
 .search_footer .data_input:-ms-input-placeholder
 {  
-   color: #fdb813; 
+   color: white; 
 }
 .col_place li i:before
 {
@@ -114,7 +114,7 @@ footer
 }
 .box_bottom_footer
 {
-  background-color: #fdbc1c;
+  background-color: #1d1108;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -350,7 +350,7 @@ footer
 .info_guest .nameprice_search
 {
   font-size: 15px;
-  color: #fdb913;
+  color: white;
   font-family: Roboto_Bold, Arial, Tahoma;
 }
 .content_top
@@ -394,7 +394,7 @@ footer
 }
 .link_footer li a:hover
 {
-  color: #fdbc1c;
+  color: #1d1108;
 }
 hr.style11
 {
@@ -539,7 +539,7 @@ hr.style11
   font-family: Roboto_Regular, Arial, Tahoma;
   font-size: 14px;
   line-height: 23px;
-  color: #543d03;
+  color: white;
   margin: 0;
 }
 .certify a

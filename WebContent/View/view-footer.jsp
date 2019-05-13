@@ -136,7 +136,7 @@
 			<div class="container">
 				<div class="row box_logofooter">
 					<div class="col-sm-12">
-						<img src="logo.png" alt="Logo " style="width: 10%;">
+						<img src="img/logo-2.png" alt="Logo " style="width: 10%;">
 					</div>
 				</div>
 				<div class="row box_titlefooter">

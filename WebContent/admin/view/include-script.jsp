@@ -32,5 +32,3 @@
 
 	<!-- Main JS-->
 	<script src="${pageContext.request.contextPath}/admin/js/main.js"></script>
-<script>
-CKEDITOR.replace('content');</script>

@@ -26,10 +26,10 @@
 
 
 		<!-- PAGE CONTAINER-->
-		<div class="page-container">
+		<div class="page-content--bgf7">
 		
 			<!-- HEADER DESKTOP-->
-				<%@include file="../view/view-header.jsp"%>
+				
 			<!-- END HEADER DESKTOP-->
 			
 			

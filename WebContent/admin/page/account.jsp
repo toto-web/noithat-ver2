@@ -13,12 +13,12 @@
 <meta name="keywords" content="au theme template">
 
 <!-- Title Page-->
-<title>Danh sách sản phẩm</title>
+<title>Danh sách tài khoản</title>
 	<%@include file="../view/include-css.jsp"%>
 </head>
 <body class="animsition">
 	<div class="page-wrapper">
-		<!-- HEADER MOBILE-->
+		
 
 		<%@include file="../view/view-menu.jsp"%>
 
@@ -26,12 +26,8 @@
 
 
 		<!-- PAGE CONTAINER-->
-		<div class="page-container">
+		<div class="page-content--bgf7">
 		
-			<!-- HEADER DESKTOP-->
-				<%@include file="../view/view-header.jsp"%>
-			<!-- END HEADER DESKTOP-->
-			
 			
 			<!--  MAIN CONTENT-->
 			<%@include file="../view/view-list-user.jsp"%>
