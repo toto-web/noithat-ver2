@@ -31,9 +31,9 @@
 				</div>
 			</div>
 			<img
-				data-src="img/logo-2.png"
-				src="img/logo-2.png"
-				alt="Logo thuvien" class="lazyload" style="  display: block;
+				data-src="${pageContext.request.contextPath}/img/logo-2.png"
+				src="${pageContext.request.contextPath}/img/logo-2.png"
+				alt="Logo" class="lazyload" style="  display: block;
 				  
 				  margin: 10px auto 5px auto;
 				  width: 10%;
@@ -52,26 +52,26 @@
 					</div>
 					<nav role="navigation" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav top_navigation">
-							<li class="dropdown"><a href="noi-that.html"
+							<li class="dropdown"><a href="${pageContext.request.contextPath}/"
 								title="Nội thất" class="dropdown-toggle"><i
 									class="flaticon-noi-that">Trang chủ</i></a>
 							<hr>
 								</li>
-							<li class="dropdown"><a href="hang-trang-tri.html"
+							<li class="dropdown"><a href="#"
 								title="Hàng Trang Trí" class="dropdown-toggle"><i
 									class="flaticon-hang-trang-tri">Dự án</i></a>
 							<hr>
 								</li>
-							<li class="dropdown"><a href="thiet-ke.html"
+							<li class="dropdown"><a href="#"
 								title="Thiết kế" class="dropdown-toggle"><i
 									class="flaticon-gia-dung">Video</i></a>
 							<hr>
 								</li>
-							<li class="dropdown"><a href="dich-vu.html" title="Dịch Vụ"
+							<li class="dropdown"><a href="#" title="Dịch Vụ"
 								class="dropdown-toggle"><i class="flaticon-dich-vu">Liên hệ</i></a>
 							<hr>
 								</li>
-							<li class="dropdown"><a href="chuyen-muc.html"
+							<li class="dropdown"><a href="#"
 								title="Chuyên Mục" class="dropdown-toggle"><i
 									class="flaticon-chuyen-muc">Giới thiệu</i></a>
 							<hr>

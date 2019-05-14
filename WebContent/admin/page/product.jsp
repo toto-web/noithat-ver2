@@ -34,7 +34,7 @@
 			
 			
 			<!--  MAIN CONTENT-->
-			<%@include file="../view/view-list-product.jsp"%>
+			<%@include file="../view/add-product.jsp"%>
 			<!-- END MAIN CONTENT-->
 			
 			<!-- END PAGE CONTAINER-->

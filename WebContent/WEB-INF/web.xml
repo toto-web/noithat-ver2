@@ -89,4 +89,14 @@
     <servlet-name>ProductServlet</servlet-name>
     <url-pattern>/ProductServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>productdetail</display-name>
+    <servlet-name>productdetail</servlet-name>
+    <servlet-class>com.noithat.servlet.productdetail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productdetail</servlet-name>
+    <url-pattern>/productdetail</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -44,9 +44,11 @@ public class ProjectServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("UTF-8");
+		 response.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		HashMap<String, String> map = new HashMap<String, String>();
-		response.setContentType("text/html;charset=UTF-8");
+		
 		int type = Integer.parseInt(request.getParameter("type"));
 		String jsonData = "";
 		boolean status;

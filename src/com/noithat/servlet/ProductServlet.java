@@ -10,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
@@ -21,6 +22,7 @@ import org.json.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.noithat.databases.MysqlConnection;
+import com.noithat.object.Categories;
 import com.noithat.object.Product;
 import com.noithat.utils.Utility;
 /**
@@ -162,6 +164,15 @@ public class ProductServlet extends HttpServlet {
 			}
 			out.println(arr);
 			break;
+		case 6:
+			System.out.println("get products");
+			List<Categories> listCates = con.getListAll(Categories.class);
+			List<Product> listPro = con.getListAll(Product.class);
+			HttpSession session = request.getSession();
+			session.setAttribute("listCates", listCates);
+			session.setAttribute("listPro", listPro);
+			request.getRequestDispatcher("/View/view-product.jsp").forward(request, response);
+			
 		default:
 		}
 		result = new JSONObject(map);

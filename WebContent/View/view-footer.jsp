@@ -102,8 +102,8 @@
 							<div class="facebook_dmcl">
 								<!-- <div class="logo_small">
 									<img alt="#"
-										data-src="/themes/thuvien/general/img/title_face.jpg"
-										src="img/image-demo.jpg"
+										data-src="/themes/thuvien/general/${pageContext.request.contextPath}/img/title_face.jpg"
+										src="${pageContext.request.contextPath}/img/image-demo.jpg"
 										class="lazyload">
 								</div> -->
 								<!-- <div class="div_facebook">
@@ -136,8 +136,8 @@
 			<div class="container">
 				<div class="row box_logofooter">
 					<div class="col-sm-12">
-						<img src="img/logo-2.png" alt="Logo " style="width: 10%;">
-					</div>
+					<img src="${pageContext.request.contextPath}/img/logo-2.png" alt="Logo " style="width: 10%;">
+				</div>
 				</div>
 				<div class="row box_titlefooter">
 					<div class="col-sm-12 titlefooter">nội thất cao cấp - tiêu

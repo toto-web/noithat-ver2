@@ -6,27 +6,8 @@
 
 <head>
 	<title>Nội thất chính hãng</title>
-<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/header.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/product.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/cateparent/css/cateparent.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/footer.css">
-	<link rel="stylesheet" type="text/css"
-	href="themes/thuvien/general/css/flaticon.css">
- <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
-	 <script src="themes/thuvien/general/js/slider.js" type="text/javascript"></script>
-    
-    <!-- <link href="//fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&subset=latin-ext,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" /> -->
-   <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
-
+	<%@include file="include/inc-script-header.jsp" %>
+	<%@include file="include/inc-css.jsp" %>
 </head>
 <body>
 
@@ -102,32 +83,15 @@
 		<!-- end Include file footer -->
 	
 	</content>
-	
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/jquery.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/bootstrap.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/owl.carousel.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/lazyload.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/jquery-ui.js"></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/jquery.cookie.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/general/js/general.min.js" defer></script>
-	<script type="text/javascript"
-		src="themes/thuvien/cateparent/js/cateparent.js" defer></script>
+	<%@include file="include/inc-script-footer.jsp" %>
 	<div id="popup_loading_ajax" class="popup_loading_ajax">
 		<div class="loading_ajax_content">
-			<img src="themes/thuvien/general/img/ajax.gif" class="lazyload">
+			<img src="${pageContext.request.contextPath}/themes/thuvien/general/img/ajax.gif" class="lazyload">
 		</div>
 		<div class="loading_ajax_background"></div>
 	</div>
-	<script type="text/javascript"
-		src="../apis.google.com/js/api_client.js" async defer></script>
+	
 	
 </body>
-<!-- Mirrored from thuvien.vn/noi-that by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Mar 2019 15:31:55 GMT -->
+
 </html>

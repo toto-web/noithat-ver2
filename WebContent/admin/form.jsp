@@ -273,6 +273,7 @@
 			var value = CKEDITOR.instances['product-content-area'].getData()
 			var productContent=value;
 			console.log("productContent: "+productContent);
+			console.log("productName: "+productName);
 			var obj = {
 					type : 1,
 					productName : productName,
@@ -301,6 +302,7 @@
 					console.log(data)
 					var json = JSON.parse(data);
 					alert(json.status);
+					window.location.href = 'http://localhost:8123/noithat/admin/form.jsp';
 				}
 			});
 		});

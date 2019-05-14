@@ -6,7 +6,7 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Bảng điều khiển</span></a>
+                        <li> <a class="waves-effect waves-dark" href="{pageContext.request.contextPath}/" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Bảng điều khiển</span></a>
                         </li>
                         <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i class="fa fa-user-circle-o"></i><span class="hide-menu">Thông tin cá nhân</span></a>
                         </li>
