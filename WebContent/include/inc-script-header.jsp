@@ -5,4 +5,5 @@
 	 <script src="${pageContext.request.contextPath}/themes/thuvien/general/js/slider.js" type="text/javascript"></script>
     
     <!-- <link href="//fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&subset=latin-ext,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" /> -->
-  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

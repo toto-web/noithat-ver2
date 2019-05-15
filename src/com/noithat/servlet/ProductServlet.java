@@ -3,6 +3,7 @@ package com.noithat.servlet;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 
@@ -100,13 +101,17 @@ public class ProductServlet extends HttpServlet {
 		case 1:// create
 			try {
 				JSONObject json = new JSONObject(jsonData);
+				String decode = new String (Base64.getDecoder().decode(json.get("productContent").toString().getBytes("UTF-8")), "UTF-8");
+				System.out.println("decoder :"+ decode);
+				System.out.println("def :"+ json.get("productContent").toString());
+				
 				product.setCategoriesId(Integer.parseInt(json.get("categoriesId").toString()));
-				product.setContent(json.get("productContent").toString());
+				product.setContent(new String (Base64.getDecoder().decode(json.get("productContent").toString().getBytes("UTF-8")), "UTF-8"));
 				product.setIsVisible(Integer.parseInt(json.get("isVisible").toString()));
 				product.setProductCode(json.get("productCode").toString());
-				product.setProductDescription(json.get("productDescription").toString());
-				product.setProductName(json.get("productName").toString());
-				product.setProductSeo(json.get("seo").toString());
+				product.setProductDescription(new String (Base64.getDecoder().decode(json.get("productDescription").toString().getBytes("UTF-8")), "UTF-8"));
+				product.setProductName(new String (Base64.getDecoder().decode(json.get("productName").toString().getBytes("UTF-8")), "UTF-8"));
+				product.setProductSeo(new String (Base64.getDecoder().decode(json.get("seo").toString().getBytes("UTF-8")), "UTF-8"));
 				String pathProductPicture = "C:/Picture/" + product.getProductCode() + "/";
 				File file = new File(pathProductPicture);
 				if (!file.exists())

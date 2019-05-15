@@ -247,3 +247,5 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/js/plugin.js" >
+	</script>

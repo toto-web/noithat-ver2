@@ -45,6 +45,7 @@
 <!-- Main CSS-->
 <link href="css/theme.css" rel="stylesheet" media="all">
 <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="js/base64.js"></script>
 <%-- <script type="text/javascript"
 	src="${pageContext.request.contextPath}/ckeditor/ckeditor.js"></script> --%>
 </head>
@@ -147,8 +148,8 @@
 												<label for="file-multiple-input" class=" form-control-label">Danh sách ảnh mô tả</label>
 											</div>
 											<div class="col-12 col-md-9">
-												<input type="file" id="file-multiple-input"
-													name="file-multiple-input" multiple=""
+												<input type="file" id="listImage"
+													name="listImage" multiple=""
 													class="form-control-file">
 											</div>
 										</div>
@@ -245,6 +246,17 @@
 
 
 	<script>
+	function getBase64(file) {
+		   var reader = new FileReader();
+		   reader.readAsDataURL(file);
+		   reader.onload = function () {
+		     console.log(reader.result);
+		   };
+		   reader.onerror = function (error) {
+		     console.log('Error: ', error);
+		   };
+		}
+
 	CKEDITOR.replace('content');
 		var urlPrefix = 'PROTOCOL//' + location.host + '/noithat';
 		
@@ -263,15 +275,30 @@
             ['Styles','BGColor']
         ], toolbarCanCollapse:false, height: '300px', scayt_sLang: 'pt_PT', uiColor : '#EBEBEB' } ); */
 		$('#btn-add-product').click(function(){
+			document.getElementById("btn-add-product").innerHTML  = "Đang tải dữ liệu lên...";
+			
 			console.log("add product start");
 			var productName = $('#text-input').val();
 			var productCode = $('#code-input').val();
 			var categoriesId = $('#categories-id option:selected').val();
 			var isVisible = $('input:radio[name="isVisible"]:checked').val();
 			var productDescription=$('#short-description').val();
+			var listImage=document.getElementById('listImage');
 			var seo=$('#short-seo').val();
-			var value = CKEDITOR.instances['product-content-area'].getData()
-			var productContent=value;
+			
+			var productContent= CKEDITOR.instances['product-content-area'].getData();
+			productName = Base64.encode(productName);
+		
+			productDescription = Base64.encode(productDescription);
+			seo = Base64.encode(seo);
+			productContent = Base64.encode(productContent);
+			console.log(listImage.files);
+
+			for (var i = 0; i < listImage.files.length; i++) {
+			
+			getBase64(listImage.files[i]);
+			}
+			/* console.log("listImage: "+listImage); */
 			console.log("productContent: "+productContent);
 			console.log("productName: "+productName);
 			var obj = {
@@ -287,7 +314,9 @@
 			var jsonData = JSON.stringify(obj);
 			var fromData = new FormData();
 			var pictureContent = $('#file-input')[0].files[0];
+			console.log("pictureContent", pictureContent);
 			fromData.append("type", "1");
+			fromData.append("listImage", listImage);
 			fromData.append('productPicture',pictureContent);
 			fromData.append('jsonData', jsonData);
 			$.ajax({
@@ -299,10 +328,12 @@
 				contentType : false,
 				processData : false,
 				success : function(data) {
+					
 					console.log(data)
 					var json = JSON.parse(data);
 					alert(json.status);
-					window.location.href = 'http://localhost:8123/noithat/admin/form.jsp';
+					document.getElementById("btn-add-product").innerHTML = "Thêm sản phẩm"
+					///window.location.href = 'http://localhost:8123/noithat/admin/form.jsp';
 				}
 			});
 		});
