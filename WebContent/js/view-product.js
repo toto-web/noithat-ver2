@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$.ajax({
 		url : urlPrefix + '/ProductServlet',
 		type : 'POST',
-		async : true,
+		async : false,
 		data : form,
 		cache : false,
 		contentType : false,

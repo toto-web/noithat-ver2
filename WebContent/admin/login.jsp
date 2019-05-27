@@ -46,14 +46,14 @@
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <form action="" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
                                    <!--  <label>Tài khoản</label> -->
-                                    <input class="au-input au-input--full" type="text" name="userId" placeholder="Tài khoản">
+                                    <input class="au-input au-input--full" type="text" name="userId"  id="userId" placeholder="Tài khoản">
                                 </div>
                                 <div class="form-group">
                                     <!-- <label>Password</label> -->
-                                    <input class="au-input au-input--full" type="password" name="password" placeholder="Mật khẩu">
+                                    <input class="au-input au-input--full" type="password" name="password" id="password" placeholder="Mật khẩu">
                                 </div>
                                 <div class="login-checkbox">
                                     <label>
@@ -63,7 +63,7 @@
                                         <a href="#">Quên mật khẩu?</a>
                                     </label>
                                 </div>
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">Đăng nhập</button>
+                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit" name="sign-in" id="sign-in">Đăng nhập</button>
                                 
                             </form>
                             <div class="register-link">
@@ -103,6 +103,7 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
 
 </body>
 

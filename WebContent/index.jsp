@@ -53,7 +53,7 @@
 				</div>
 				
 				<!-- Load Facebook SDK for JavaScript -->
-<%-- <div id="fb-root"></div>
+<!-- <div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -70,12 +70,12 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
+Your customer chat code
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="1746487849013882"
   theme_color="#1d1108">
-</div>
+</div> -->
 				<!-- Include fiile product -->
 				<%@include file="View/view-product.jsp" %>
 				<!-- end Include file product -->
@@ -100,7 +100,7 @@
 					</div>
 				</div>
 			</div> -->
-		</div> --%>
+		</div>
 	</section>
 
 	<!-- Include fiile footer - menu -->

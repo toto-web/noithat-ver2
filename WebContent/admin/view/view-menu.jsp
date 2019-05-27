@@ -17,10 +17,17 @@
 						href="${pageContext.request.contextPath}/admin/"> <i
 							class="fas fa-tachometer-alt"></i>Dashboard <span
 							class="bot-line"></span>
-					</a></li>
-					<li><a href="${pageContext.request.contextPath}/admin/page/product.jsp"> <i class="fas fa-shopping-basket"></i> <span
-							class="bot-line"></span>Sản phẩm
-					</a></li>
+					</a>
+					<li class="has-sub"><a href="#"> <i class="fas fa-trophy"></i> <span
+							class="bot-line"></span>Danh mục
+					</a>
+						<ul class="header3-sub-list list-unstyled">
+							<li><a href="${pageContext.request.contextPath}/admin/page/category.jsp">Danh mục sản phẩm</a></li>
+							<li><a href="${pageContext.request.contextPath}/admin/page/group.jsp">Nhóm sản phẩm</a></li>
+							<li><a href="${pageContext.request.contextPath}/admin/page/product.jsp">Danh sách sản phẩm</a></li>
+							
+						</ul>
+						</li>
 					<li class="has-sub"><a href="#"> <i class="fas fa-trophy"></i> <span
 							class="bot-line"></span>Dự án
 					</a>
@@ -30,7 +37,7 @@
 							
 						</ul>
 						</li>
-					<li ><a href="#"> <i class="fas fa-copy"></i>
+					<li ><a href="${pageContext.request.contextPath}/admin/page/customer.jsp"> <i class="fas fa-copy"></i>
 							<span class="bot-line"></span>Khách hàng
 					</a>
 						</li>

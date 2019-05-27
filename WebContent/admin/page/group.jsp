@@ -8,30 +8,19 @@
 <meta charset="UTF-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="au theme template">
+
+<meta name="keywords" content="au theme template">
 
 <!-- Title Page-->
-<title>Dashboard</title>
-<%@include file="view/include-css.jsp"%>
-
+<title>Nhóm sản phẩm</title>
+	<%@include file="../view/include-css.jsp"%>
 </head>
-
 <body class="animsition">
-
-<%
-		if (session == null
-				|| session.getAttribute("actionSession") == null) {
-	%>
-	<script>
-		var url = "${pageContext.request.contextPath}/admin";
-		window.location.href = url + "/login.jsp";
-	</script>
-	<%
-		}
-	%>
 	<div class="page-wrapper">
-		<!-- HEADER MOBILE-->
+		
 
-		<%@include file="view/view-menu.jsp"%>
+		<%@include file="../view/view-menu.jsp"%>
 
 
 
@@ -40,20 +29,19 @@
 		<div class="page-content--bgf7">
 		
 			
-			
 			<!--  MAIN CONTENT-->
-			<%@include file="view/view-main-content.jsp"%>
+			<%@include file="../view/view-list-group.jsp"%>
 			<!-- END MAIN CONTENT-->
 			
 			<!-- END PAGE CONTAINER-->
 		</div>
 
 	</div>
-
-	<!-- Jquery JS-->
-	<%@include file="view/include-script.jsp"%>
+<%@include file="../view/include-script.jsp"%>
+	
 
 </body>
+
 
 </html>
 <!-- end document-->

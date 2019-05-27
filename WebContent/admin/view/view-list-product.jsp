@@ -33,9 +33,7 @@
 							<button class="au-btn au-btn-icon au-btn--green au-btn--small">
 								<i class="zmdi zmdi-plus"></i>Thêm sản phẩm mới
 							</button>
-							<button class="au-btn au-btn-icon au-btn--green au-btn--small">
-								<i class="zmdi zmdi-plus"></i>Thêm nhóm mới
-							</button>
+							
 							<!-- <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
 								<select class="js-select2" name="type">
 									<option selected="selected">Thêm nhóm mới</option>

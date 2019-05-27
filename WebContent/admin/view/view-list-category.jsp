@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="title-5 m-b-35">Nhóm sản phẩm</h3>
+                            <h3 class="title-5 m-b-35">Danh sách nhóm sản phẩm</h3>
                             <div class="table-data__tool">
                                 <div class="table-data__tool-left">
                                     <div class="rs-select2--light rs-select2--md">
@@ -45,8 +45,8 @@
                                                     <span class="au-checkmark"></span>
                                                 </label>
                                             </th>
-                                            <th>Tên Nhóm</th>
-                                            
+                                            <th>Tên danh mục</th>
+                                            <th>Tên nhóm</th>
                                             <th>Mô tả</th>
                                             <th>Thời gian tạo</th>
                                             <th>Seo</th>
@@ -62,9 +62,11 @@
                                                     <span class="au-checkmark"></span>
                                                 </label>
                                             </td>
-                                            <td>Nhóm nội thất</td>
-                                            
-                                            <td class="desc">Nội thất </td>
+                                            <td>Nội thất phòng khách</td>
+                                            <td>
+                                                <span class="block-email">Nội thất</span>
+                                            </td>
+                                            <td class="desc">Nội thất phòng khác</td>
                                             <td>2019-05-27 02:12</td>
                                             <td>
                                                 <span class="status--process">Sofa; Kệ tivi</span>
@@ -88,7 +90,76 @@
                                             </td>
                                         </tr>
                                         <tr class="spacer"></tr>
-                                       
+                                        <tr class="tr-shadow">
+                                            <td>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </td>
+                                            <td>Nội thất phòng khách</td>
+                                            <td>
+                                                <span class="block-email">Nội thất</span>
+                                            </td>
+                                            <td class="desc">Nội thất phòng khác</td>
+                                            <td>2019-05-27 02:12</td>
+                                            <td>
+                                                <span class="status--process">Sofa; Kệ tivi</span>
+                                            </td>
+                                           
+                                            <td>
+                                                <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Sao chép ">
+                                                        <i class="zmdi zmdi-mail-send"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Sửa">
+                                                        <i class="zmdi zmdi-edit"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Xóa">
+                                                        <i class="zmdi zmdi-delete"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Khác">
+                                                        <i class="zmdi zmdi-more"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="spacer"></tr>
+                                        <tr class="tr-shadow">
+                                            <td>
+                                                <label class="au-checkbox">
+                                                    <input type="checkbox">
+                                                    <span class="au-checkmark"></span>
+                                                </label>
+                                            </td>
+                                            <td>Nội thất phòng khách</td>
+                                            <td>
+                                                <span class="block-email">Nội thất</span>
+                                            </td>
+                                            <td class="desc">Nội thất phòng khác</td>
+                                            <td>2019-05-27 02:12</td>
+                                            <td>
+                                                <span class="status--process">Sofa; Kệ tivi</span>
+                                            </td>
+                                           
+                                            <td>
+                                                <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Sao chép ">
+                                                        <i class="zmdi zmdi-mail-send"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Sửa">
+                                                        <i class="zmdi zmdi-edit"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Xóa">
+                                                        <i class="zmdi zmdi-delete"></i>
+                                                    </button>
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Khác">
+                                                        <i class="zmdi zmdi-more"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="spacer"></tr>
                                         
                                     </tbody>
                                 </table>
