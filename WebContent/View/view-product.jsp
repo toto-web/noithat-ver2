@@ -38,4 +38,5 @@
 			</div> --%>
 		</div>
 	</c:forEach>
+	<%@include file="view-feedback.jsp"%>
 </div>

@@ -6,9 +6,9 @@
 	<session-factory>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="connection.url">jdbc:mysql://45.122.223.125:3306/noithat?createDatabaseIfNotExist=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8</property>
+		<property name="connection.url">jdbc:mysql://127.0.0.1:3306/noithat?createDatabaseIfNotExist=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8</property>
 		<property name="connection.username">root</property>
-		<property name="connection.password">123456a@A</property>
+		<property name="connection.password">Admin@123456</property>
 	    <!-- c3p0 config http://www.hibernate.org/214.html -->
         <property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>        
         <property name="hibernate.c3p0.acquire_increment">1</property>

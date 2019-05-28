@@ -93,7 +93,17 @@
 .title_category i{
   display: none;
 }
-.box_filter > a > h3
+.box_filter ul {
+	padding: 0px;
+	list-style-type: none;
+}
+.submenu{
+	display: none;
+	list-style-type: none;
+	
+}
+
+.submenu > li > a > h3
 {
   position: relative;
   color: #58595b;
@@ -109,15 +119,59 @@
   text-overflow: ellipsis;
   margin: 0;
 }
-.box_filter > a > h3:hover, .box_filter > a > h3:hover >i:before
+.submenu > li > a > h3:hover, .submenu > a > h3:hover >i:before 
 {
   color: #fdb913;
+  
 }
-.box_filter > a > h3 > i
+.submenu > li > a > h3 > i
 {
   display: inline-block;
 }
-.box_filter > a > h3 > i:before
+.submenu > li > a > h3 > i:before
+{
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #58595b;
+  margin-right: 10px;
+  
+}
+.submenu > li > a
+{
+  display: block;
+  color: #58595b;
+}
+
+
+.box_filter > ul > li > a > h3
+{
+  position: relative;
+  color: #58595b;
+  font-size: 15px;
+  font-family: Roboto_Regular, Arial, Tahoma;
+  display: block;
+  border-bottom: 2px solid #f3f3f3;
+  padding: 10px 0px;
+  cursor: pointer;
+  height: 37px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.box_filter > ul > li > a > h3:hover, .box_filter > a > h3:hover >i:before 
+{
+  color: #fdb913;
+  
+}
+
+.box_filter > ul > li > a > h3 > i
+{
+  display: inline-block;
+}
+.box_filter > ul > li > a > h3 > i:before
 {
   margin-left: 0px;
   font-size: 12px;
@@ -125,10 +179,13 @@
   color: #58595b;
   margin-right: 10px;
 }
-.box_filter > a
+.box_filter > ul > li > a
 {
   display: block;
   color: #58595b;
+}
+.box_filter > ul > li:hover .submenu{
+	display: block;
 }
 .click_filter, .click_filter_cate
 {
